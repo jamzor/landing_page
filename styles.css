@@ -1,21 +1,56 @@
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    
 }
 
 .logo {
-
+    margin: 2px;
+    border: cyan 2px;
+    padding: 2px;
 }
 
 .headerlink {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: nowrap;
+}
 
+.links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
 
 .content {
-
+    
 }
 
 .heromaintext {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #3882F6;
+    display: flex;
+}
+
+.contentimage {
+
+}
+
+.extrainformation {
+
+}
+
+.lowerpictures {
+
 }
