@@ -15,9 +15,8 @@
     }
 
 .logo {
-    margin: 2px;
-    border: cyan 2px;
-    padding: 2px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .headerlink {
@@ -34,6 +33,11 @@
     gap: 10px;
 }
 
+.contentcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
 .contentleft {
     display:flex;
     flex-direction: column;
@@ -41,8 +45,7 @@
     }
 
 .contentright {
-    display: flex;
-    flex-direction: row;
+    
 }   
 
 
@@ -59,14 +62,14 @@
     color: #e5e7eb;
 }
 
-.button {
+button {
     background-color: #3882F6;
-    display: flex;
+    display: flex;s
 }
 
 .contentimage {
     display: flex;
-    flex-direction: row;
+    
 }
 
 .randominfo {
