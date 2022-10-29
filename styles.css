@@ -90,3 +90,37 @@ button {
     display: flex;
     flex-direction: row;
 }
+
+.quotesection {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotename {
+    font-size: 36px;
+    font-style: normal;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottombox {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+
+}
