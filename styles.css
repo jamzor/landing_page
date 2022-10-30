@@ -30,7 +30,9 @@
 .links {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    justify-content: flex-end;
+    outline: 2px red;
 }
 
 .contentcontainer {
@@ -64,7 +66,7 @@
 
 button {
     background-color: #3882F6;
-    display: flex;s
+    display: flex;
 }
 
 .contentimage {
