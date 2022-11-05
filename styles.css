@@ -137,8 +137,19 @@ button {
     color: #F9FAF8;
     margin: 50px;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
 
+.bottomright {
+    display: flex;
+    justify-content: center;
+}
 
+.button2 {
+    border-color: #E5E7EB;
 }
 
 .footer {
