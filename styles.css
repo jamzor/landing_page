@@ -7,6 +7,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    
 }
 .header {
     background-color: #1F2937;
@@ -34,9 +35,9 @@
 .links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     justify-content: flex-end;
-    outline: 2px red;
+    
 }
 
 .contentcontainer {
@@ -107,6 +108,8 @@ button {
 .lowerpictures {
     display: flex;
     flex-direction: row;
+    gap: 80px;
+    padding-bottom: 50px;
 }
 
 .quotesection {
@@ -130,6 +133,9 @@ button {
 .bottombox {
     background-color: #3882F6;
     color: #F9FAF8;
+    margin: 50px;
+    border-radius: 4px;
+
 
 }
 
@@ -138,8 +144,9 @@ button {
     color: #F9FAF8;
     font-style: italic;
     font-weight: bolder;
-    font-size: 10px;
+    font-size: 16px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding: 30px;
 
 }
