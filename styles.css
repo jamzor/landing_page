@@ -114,12 +114,14 @@ button {
 
 .quotesection {
     background-color: #E5E7EB;
+    padding: 100px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+
 }
 
 .quotename {
